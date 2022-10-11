@@ -2,3 +2,60 @@
     padding: 0;
     margin: 0;
 }
+
+body{
+    background-color: rgb(250, 139, 139);
+}
+
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    line-height: 2.5rem;
+    padding-top: 1.5rem;
+    
+}
+
+.container{
+    background-color: rgb(179, 223, 194);
+    width: 85%;
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1.4rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    gap: 0.4rem;
+}
+
+
+@media (min-width:900px) {
+    .container{
+        flex-direction: row;
+    }
+}
+
+
+
+.button-container{
+    /* background-color: blueviolet; */
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+button{
+    background-color: transparent;
+    border-style: none;
+    border: none;
+    font-size: 2.5rem;
+    color: rgb(179, 223, 194);
+    align-self: center;
+}
