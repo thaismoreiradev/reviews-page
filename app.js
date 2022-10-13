@@ -1,7 +1,7 @@
 
 
 
-// reviews data
+// reviews object array
 const reviews = [
     {
         id: 1,
@@ -38,6 +38,8 @@ const info = document.querySelector("#info")
 const prevBtn = document.querySelector("#prev-btn")
 const nextBtn = document.querySelector("#next-btn")
 
+
+
 // starting item
 let currentItem = 0
 
@@ -71,3 +73,5 @@ prevBtn.addEventListener("click", function() {
     }
     showPerson();
 })
+
+
