@@ -1,12 +1,12 @@
 * {
     padding: 0;
     margin: 0;
+    border: none;
     box-sizing: border-box;
 }
 
 body{
-    background-color: #004236;
-    
+    background-color: #004236;    
 }
 
 .main{
@@ -35,10 +35,6 @@ h1{
     color: #f4f4f4;  
 }
 
-.one-line{
-    display: none;
-}
-
 .container{
     background-color: #f5ece6;
     width: 85%;
@@ -47,7 +43,7 @@ h1{
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     padding: 1.5rem;    
     gap: 1rem;    
     height: 65%;
@@ -143,7 +139,7 @@ button{
     background-color: transparent;
     border-style: none;
     border: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #f4f4f4;
     align-self: center;
 }
@@ -156,7 +152,7 @@ footer {
     font-size: 0.7rem;
     font-family: Arial, Helvetica, sans-serif;
     color: #3a857e;
-    height: 10vh;
+    height: 10%;
 }
 
 footer a {
